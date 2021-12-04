@@ -10,3 +10,7 @@
     Publisher: Microsoft
     VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp
 - enable use global mono to always
+
+- Configure godot to work with VSCode: https://gist.github.com/paulloz/30ae499c1fc580a2f3ab9ecebe80d9ba
+
+- Hmmm, couldn't get to work with VSCode with proper code completion. Visual Studio for Mac worked to give me code completion but can't open it via godot.

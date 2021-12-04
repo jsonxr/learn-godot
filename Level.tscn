@@ -16,7 +16,7 @@ size = Vector3( 30, 2, 30 )
 [node name="Level" type="Spatial"]
 
 [node name="Box" type="RigidBody" parent="."]
-transform = Transform( 0.908085, -0.418787, 0, 0.418787, 0.908085, 0, 0, 0, 1, 0, 3.65259, 10.0857 )
+transform = Transform( 0.908085, -0.418787, 0, 0.418787, 0.908085, 0, 0, 0, 1, 0, 3.65259, -2.78831 )
 
 [node name="CollisionShape" type="CollisionShape" parent="Box"]
 shape = SubResource( 1 )
@@ -39,5 +39,5 @@ mesh = SubResource( 4 )
 material/0 = null
 
 [node name="Steve" parent="." instance=ExtResource( 1 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 12.3086 )
 script = ExtResource( 2 )
