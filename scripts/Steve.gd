@@ -11,10 +11,6 @@ func _ready():
 	#FPS = ProjectSettings.get_setting('physics/common/physics_fps')
 	FPS = ProjectSettings.get_setting('physics/common/physics_fps')
 	ROTSPEED = 1.0 * SPEED / (FPS * RADIUS)
-	print("SPEED=" + str(SPEED))
-	print("FPS=" + str(FPS))
-	print("RADIUS=" + str(RADIUS))
-	print("ROTSPEED=" + str(ROTSPEED))
 	pass
 
 func _physics_process(delta):
